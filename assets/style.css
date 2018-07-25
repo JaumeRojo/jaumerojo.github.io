@@ -1,4 +1,24 @@
 body {
-  background: #866d5c;
+  background: #748392;
+  font-family: Arial;
+}
 
+nav {
+  background: rgba(255,255,255,0.75);
+  display: flex;
+}
+
+nav a {
+  color: black;
+  padding: 20px;
+  text-decoration: none;
+  transition: background-color 0.4s;
+}
+
+nav a.active {
+  background: white;
+}
+
+nav a:hover {
+  background: rgba(255,255,255,0.4);
 }
