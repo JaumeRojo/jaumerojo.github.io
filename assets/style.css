@@ -3,6 +3,10 @@ body {
   font-family: Arial;
 }
 
+img {
+  max-width:100%;
+}
+
 nav {
   background: rgba(255,255,255,0.75);
   display: flex;
@@ -21,4 +25,17 @@ nav a.active {
 
 nav a:hover {
   background: rgba(255,255,255,0.4);
+}
+
+.cardgroup {
+  display: flex;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.card {
+  background: rgba(255,255,255,0.5);
+  padding: 20px;
+  border: solid 10px white;
+  margin: 20px;
 }
